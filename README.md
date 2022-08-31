@@ -5,4 +5,4 @@
 ## Seoul - [Seoul visualization](https://hnu209.github.io/Seoul-visualization/)   
 ## New York - [New York visualization](https://hnu209.github.io/NewYork-visualization/)   
 ## Chicago - [Chicago visualization](https://hnu209.github.io/Chicago-visualization/)   
-## jeju - [jeju visualization](https://hnu209.github.io/Jeju-delivery-management-system/)
+## Jeju - [Jeju visualization](https://hnu209.github.io/Jeju-delivery-management-system/)
