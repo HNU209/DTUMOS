@@ -32,6 +32,8 @@
 ## Implementation of DTUMOS
 ### Seoul - [Seoul visualization](https://hnu209.github.io/Seoul-visualization/) | [Seoul report](https://hnu209.github.io/Seoul-report/)
 - Data description: 
+    - Data : Seoul, Republic of Korea
+    - Date : 2022-04-08
 ### New York - [New York visualization](https://hnu209.github.io/NewYork-visualization/)   
 - Data description:   
     - Data : [NewYork](https://www.kaggle.com/competitions/nyc-taxi-trip-duration/data), [NYC](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page)   
@@ -42,3 +44,5 @@
     - Date : 2019-07-19   
 ### Jeju - [Jeju visualization](https://hnu209.github.io/Jeju-delivery-management-system/)
 - Data description: 
+    - Data : Jeju-do, Republic of Korea
+    - Date : 2022-04-01
