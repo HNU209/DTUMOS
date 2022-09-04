@@ -33,8 +33,12 @@
 ### Seoul - [Seoul visualization](https://hnu209.github.io/Seoul-visualization/) | [Seoul report](https://hnu209.github.io/Seoul-report/)
 - Data description: 
 ### New York - [New York visualization](https://hnu209.github.io/NewYork-visualization/)   
-- Data description: 
+- Data description:   
+    - Data : [NewYork](https://www.kaggle.com/competitions/nyc-taxi-trip-duration/data)   
+    - Date : 2016-04-09   
 ### Chicago - [Chicago visualization](https://hnu209.github.io/Chicago-visualization/)   
-- Data description: 
+- Data description:   
+    - Data : [chicago](https://data.cityofchicago.org/Transportation/Taxi-Trips/wrvz-psew)   
+    - Date : 2019-07-19   
 ### Jeju - [Jeju visualization](https://hnu209.github.io/Jeju-delivery-management-system/)
 - Data description: 
