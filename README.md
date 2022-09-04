@@ -6,14 +6,11 @@
 
 <table><tr>
 <td>
-![fig1](https://user-images.githubusercontent.com/70340230/188303038-cae85f6a-31ef-4a1e-98ad-38f7b08084d0.png)
-</td>
+[fig1](https://user-images.githubusercontent.com/70340230/188303038-cae85f6a-31ef-4a1e-98ad-38f7b08084d0.png)
 <td>
-![fig2](https://user-images.githubusercontent.com/70340230/188303101-d0d64444-341e-4dfd-8f89-2d6322eefa69.png)
-</td>
+[fig2](https://user-images.githubusercontent.com/70340230/188303101-d0d64444-341e-4dfd-8f89-2d6322eefa69.png)
 <td>
-![fig3](https://user-images.githubusercontent.com/70340230/188303115-ae90ed4f-0f3f-4768-88c1-7bb0445a3e7b.png)
-</td>
+[fig3](https://user-images.githubusercontent.com/70340230/188303115-ae90ed4f-0f3f-4768-88c1-7bb0445a3e7b.png)
 </tr></table>
 
 ## DTUMOS 사용방법
