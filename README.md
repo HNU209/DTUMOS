@@ -4,20 +4,7 @@
 
 이것을 활용하여 테스트한 시뮬레이션의 결과를 정량적으로 확인하고 평가할 수 있다.
 
-<table><tr>
-<td>
-
-![fig1](https://user-images.githubusercontent.com/70340230/188303038-cae85f6a-31ef-4a1e-98ad-38f7b08084d0.png)
-
-<td>
-
-![fig2](https://user-images.githubusercontent.com/70340230/188303101-d0d64444-341e-4dfd-8f89-2d6322eefa69.png)
-
-<td>
-
-![fig3](https://user-images.githubusercontent.com/70340230/188303115-ae90ed4f-0f3f-4768-88c1-7bb0445a3e7b.png)
-
-</tr></table>
+![fig1](https://user-images.githubusercontent.com/70340230/188313317-ef0c5d96-5128-4b22-aad1-e2cb6c96f2a0.png)
 
 ## DTUMOS 사용방법
 
