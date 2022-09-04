@@ -30,7 +30,7 @@
 
 ### Getting Started
 1. Clone DTOMOS
-2. Install requirements.txt
+2. Install requirements.txt  
     pip install requirements.txt
 3. Run main.ipynb
 4. Load result-data in visualization folder
