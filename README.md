@@ -32,7 +32,7 @@
 ## Implementation of DTUMOS
 ### Seoul - [Seoul visualization](https://hnu209.github.io/Seoul-visualization/) | [Seoul report](https://hnu209.github.io/Seoul-report/)
 - Data description: 
-    - Data : Seoul, Republic of Korea
+    - Data : Seoul, Republic of Korea (private)
     - Date : 2022-04-08
 ### New York - [New York visualization](https://hnu209.github.io/NewYork-visualization/)   
 - Data description:   
@@ -44,5 +44,5 @@
     - Date : 2019-07-19   
 ### Jeju - [Jeju visualization](https://hnu209.github.io/Jeju-delivery-management-system/)
 - Data description: 
-    - Data : Jeju-do, Republic of Korea
+    - Data : Jeju-do, Republic of Korea (private)
     - Date : 2022-04-01
