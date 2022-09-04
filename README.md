@@ -30,6 +30,9 @@
 
 ### Getting Started
 1. Clone DTOMOS
+    ```
+    git clone https://github.com/HNU209/DTUMOS.git
+    ```
 2. Install requirements.txt  
     ```
     pip install requirements.txt
