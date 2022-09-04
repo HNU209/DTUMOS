@@ -1,17 +1,19 @@
 # DTUMOS
 
-[DTUMOS](https://github.com/HNU209/DTUMOS) is a digital twin framework for urban mobility operating systems. It is an open-source framework that can easily and flexibly apply to any city and mobility system worldwide. The proposed DTUMOS has distinct strengths in scalability, speed, and visualization compared to the existing state-of-the-art mobility digital twins.  We verified the performance of DTUMOS quantitatively using real-world data. DTUMOS can be utilized to develop various operation algorithms in mobility systems, including re-balancing empty vehicles, advanced dispatch, and ride-sharing algorithms, dynamic pricing, and fleet size controls. A lightweight and open-source environment is particularly advantageous when iterative learning is required, such as reinforcement learning. Furthermore, DTUMOS can also be exploited to provide quantitative evaluations and guidelines for policies and plans.
+[DTUMOS](https://github.com/HNU209/DTUMOS)는 디지털 트윈 환경에서 다양한 시뮬레이션들을 테스트 할 수 있다.
+
+이것을 활용하여 테스트한 시뮬레이션의 결과를 정량적으로 확인하고 평가할 수 있다.
 
 ![fig1](https://user-images.githubusercontent.com/70340230/188313317-ef0c5d96-5128-4b22-aad1-e2cb6c96f2a0.png)
 
-## How to use DTUMOS
+## DTUMOS 사용방법
 
 ### Prerequisites
 
-- Available on Linux
-- Use WSL2 for Window users
-- [osrm-backend](https://github.com/Project-OSRM/osrm-backend)
-- Python version >= 3.8
+- Linux에서 사용 가능
+- windows 사용자는 WSL2을 이용하여 사용
+- Install [osrm-backend](https://github.com/Project-OSRM/osrm-backend)
+- Install Python version >= 3.8
 
 ### Getting Started
 1. Clone DTOMOS
@@ -29,12 +31,8 @@
 ## Architecture
 ![architecture](https://user-images.githubusercontent.com/70340230/187696367-cd93a438-1f86-4e41-9ee7-f0486584057f.png)
 
-## Implementation of DTUMOS
-### Seoul - [Seoul visualization](https://hnu209.github.io/Seoul-visualization/) | [Seoul report](https://hnu209.github.io/Seoul-report/)
-- Data description: 
+## 그 외의 시뮬레이션
+### Seoul - [Seoul visualization](https://hnu209.github.io/Seoul-visualization/)   
 ### New York - [New York visualization](https://hnu209.github.io/NewYork-visualization/)   
-- Data description: 
 ### Chicago - [Chicago visualization](https://hnu209.github.io/Chicago-visualization/)   
-- Data description: 
 ### Jeju - [Jeju visualization](https://hnu209.github.io/Jeju-delivery-management-system/)
-- Data description: 
