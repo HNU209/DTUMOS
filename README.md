@@ -34,7 +34,7 @@
 - Data description: 
 ### New York - [New York visualization](https://hnu209.github.io/NewYork-visualization/)   
 - Data description:   
-    - Data : [NewYork](https://www.kaggle.com/competitions/nyc-taxi-trip-duration/data)   
+    - Data : [NewYork](https://www.kaggle.com/competitions/nyc-taxi-trip-duration/data), [NYC](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page)   
     - Date : 2016-04-09   
 ### Chicago - [Chicago visualization](https://hnu209.github.io/Chicago-visualization/)   
 - Data description:   
