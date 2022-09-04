@@ -1,0 +1,79 @@
+{
+  "homepage": "https://HNU209.github.io/Seoul-visualization",
+  "name": "seoul",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@azure/cosmos": "^3.15.1",
+    "@azure/identity": "^2.0.4",
+    "@azure/storage-blob": "^12.9.0",
+    "@babel/runtime": "^7.17.9",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.6.4",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.1.1",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
+    "azure-sas-token": "^0.0.46",
+    "big-json": "^3.1.0",
+    "buffer": "^6.0.3",
+    "chart.js": "^3.7.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.1.1",
+    "deck.gl": "^8.7.8",
+    "express": "^4.18.1",
+    "jsbi": "^4.3.0",
+    "node-sass": "^7.0.1",
+    "react": "^18.1.0",
+    "react-chartjs-2": "^4.1.0",
+    "react-dom": "^18.1.0",
+    "react-frame-component": "^5.2.2",
+    "react-map-gl": "^5.2.5",
+    "react-scripts": "5.0.1",
+    "shared-access-signature": "^1.1.5",
+    "stream-browserify": "^3.0.0",
+    "web-vitals": "^2.1.4",
+    "workbox-core": "^6.5.3",
+    "workbox-expiration": "^6.5.3",
+    "workbox-precaching": "^6.5.3",
+    "workbox-routing": "^6.5.3",
+    "workbox-strategies": "^6.5.3",
+    "worker-loader": "^3.0.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "not safari < 10",
+      "not chrome < 51",
+      "not android < 5",
+      "not ie < 12"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "workbox-build": "^6.5.3"
+  }
+}

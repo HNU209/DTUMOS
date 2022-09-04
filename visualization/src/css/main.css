@@ -1,0 +1,14 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+.trip-container {
+    /* display: inline-block; */
+    flex: 9 0 0;
+}
+.report-container {
+    flex: 1 0 0;
+}
