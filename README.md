@@ -2,7 +2,7 @@
 
 [DTUMOS](https://github.com/HNU209/DTUMOS) is a digital twin framework for urban mobility operating systems. It is an open-source framework that can easily and flexibly apply to any city and mobility system worldwide. The proposed DTUMOS has distinct strengths in scalability, speed, and visualization compared to the existing state-of-the-art mobility digital twins.  We verified the performance of DTUMOS quantitatively using real-world data. DTUMOS can be utilized to develop various operation algorithms in mobility systems, including re-balancing empty vehicles, advanced dispatch, and ride-sharing algorithms, dynamic pricing, and fleet size controls. A lightweight and open-source environment is particularly advantageous when iterative learning is required, such as reinforcement learning. Furthermore, DTUMOS can also be exploited to provide quantitative evaluations and guidelines for policies and plans.
 
-![fig1](https://user-images.githubusercontent.com/70340230/188313317-ef0c5d96-5128-4b22-aad1-e2cb6c96f2a0.png)
+![fig1](https://user-images.githubusercontent.com/70340230/188313770-37e81a69-8861-48a7-b800-0eadccfcb82b.png)
 
 ## How to use DTUMOS
 
