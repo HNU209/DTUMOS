@@ -38,7 +38,7 @@
     - Date : 2016-04-09   
 ### Chicago - [Chicago visualization](https://hnu209.github.io/Chicago-visualization/)   
 - Data description:   
-    - Data : [chicago](https://data.cityofchicago.org/Transportation/Taxi-Trips/wrvz-psew)   
+    - Data : [Chicago](https://data.cityofchicago.org/Transportation/Taxi-Trips/wrvz-psew)   
     - Date : 2019-07-19   
 ### Jeju - [Jeju visualization](https://hnu209.github.io/Jeju-delivery-management-system/)
 - Data description: 
