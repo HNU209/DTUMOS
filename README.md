@@ -40,7 +40,8 @@ The framework consists of four parts: 1) Data; 2) Deep learning and Machine lear
 ![architecture](https://user-images.githubusercontent.com/70340230/187696367-cd93a438-1f86-4e41-9ee7-f0486584057f.png)
 
 ## Implementation of DTUMOS
-### Seoul - [Seoul visualization](https://hnu209.github.io/Seoul-visualization/) | [Seoul report](https://hnu209.github.io/Seoul-report/)
+### Seoul - [Seoul visualization](https://hnu209.github.io/Seoul-visualization/) | [Seoul report](https://hnu209.github.io/Seoul-report/). 
+(The first loading is slow due to the process of loading data from github pages)
 - Data description: 
     - Data : Seoul, Republic of Korea (private)
     - Date : 2022-04-08
