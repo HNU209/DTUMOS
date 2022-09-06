@@ -40,13 +40,13 @@ The framework consists of four parts: 1) Data; 2) Deep learning and Machine lear
 ![architecture](https://user-images.githubusercontent.com/70340230/187696367-cd93a438-1f86-4e41-9ee7-f0486584057f.png)
 
 ## Implementation of DTUMOS
-### Seoul - [Seoul visualization](https://hnu209.github.io/Seoul-visualization/) | [Seoul report](https://hnu209.github.io/Seoul-report/). 
+### Seoul - [Seoul visualization](https://hnu209.github.io/Seoul-visualization/) | [Seoul report](https://hnu209.github.io/Seoul-report/)
 (The first loading is slow due to the process of loading data from github pages)
 - Data description: 
     - Data : Seoul, Republic of Korea (private)
     - Date : 2022-04-08
-### New York - [New York visualization](https://hnu209.github.io/NewYork-visualization/)   
-- Data description:   
+### New York - [New York visualization](https://hnu209.github.io/NewYork-visualization/) | [New York report](https://hnu209.github.io/NewYork-report/)
+- Data description:
     - Data : [NewYork](https://www.kaggle.com/competitions/nyc-taxi-trip-duration/data), [NYC](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page)   
     - Date : 2016-04-08   
 ### Chicago - [Chicago visualization](https://hnu209.github.io/Chicago-visualization/)   
