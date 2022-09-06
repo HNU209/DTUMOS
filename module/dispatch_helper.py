@@ -201,9 +201,9 @@ def dispatch_module(passenger, taxi, YMD, fail_time=30, dispatch_mode='OSRM'):
             #목적지까지 운행완료한 택시 빈 택시에 추가
             empty_taxi = pd.concat([empty_taxi ,drive_end])
         
-        # 운행 종료 택시 제거 (20분 정도 여유롭게 조기 퇴근)
+        # 운행 종료 택시 제거
         if i != 0:
-            empty_taxi = empty_taxi.loc[(empty_taxi.work_end > i) | (empty_taxi.work_end > i+20)] 
+            empty_taxi = empty_taxi.loc[(empty_taxi.work_end > i)] 
 
         # 영업 시작 택시
         start_taxi = taxi.loc[taxi.work_start == i]
