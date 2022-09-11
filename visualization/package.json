@@ -1,6 +1,6 @@
 {
-  "homepage": "https://HNU209.github.io/Seoul-visualization",
-  "name": "seoul",
+  "homepage": "https://HNU209.github.io/NewYork-visualization",
+  "name": "newyork",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -24,6 +24,7 @@
     "crypto-js": "^4.1.1",
     "deck.gl": "^8.7.8",
     "express": "^4.18.1",
+    "fs": "^0.0.1-security",
     "jsbi": "^4.3.0",
     "node-sass": "^7.0.1",
     "react": "^18.1.0",

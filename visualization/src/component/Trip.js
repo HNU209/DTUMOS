@@ -38,9 +38,9 @@ const DEFAULT_THEME = {
 };
 
 const INITIAL_VIEW_STATE = {
-  longitude: 127,
-  latitude: 37.55,
-  zoom: 11,
+  longitude: -73.97,
+  latitude: 40.73,
+  zoom: 12,
   minZoom: 5,
   maxZoom: 16,
   pitch: 20,
@@ -62,15 +62,17 @@ const ICON_MAPPING = {
 
 const currData = (data, time) => {
   const arr = [];
-  data.forEach(v => {
+
+  Object.values(data).forEach(v => {
+    const path = v.loc;
     const timestamp = v.timestamps;
-    const s_t = timestamp[0];
-    const e_t = timestamp[timestamp.length - 1];
-    if ((s_t <= time) && (e_t >= time)) {
-      arr.push(v)
+    const [start, end] = timestamp;
+
+    if ((time >= start) && (time <= end)) {
+      arr.push(path);
     }
   })
-  return arr;
+  return arr
 }
 
 function renderLayers(props) {
@@ -98,38 +100,38 @@ function renderLayers(props) {
       getTimestamps: (d) => d.timestamps,
       getColor: (d) => 
       d.vendor === 0 ? theme.trailColor0 : theme.trailColor1,
-      opacity: 0.5,
-      widthMinPixels: 2,
+      opacity: 0.3,
+      widthMinPixels: 5,
       lineJointRounded: false,
-      trailLength: 0.5,
+      trailLength: 1,
       currentTime: time,
       shadowEnabled: false,
     }),
     new ScatterplotLayer({
-      id: 'empty',
+      id: 'scatterplot',
       data: currEmpty,
-      getPosition: (d) => d.loc,
+      getPosition: (d) => [d[0], d[1]],
       getFillColor: (d) => [255, 255, 255],
-      getRadius: (d) => 1,
+      getRadius: (d) => 2,
       opacity: 0.3,
       pickable: false,
-      radiusMinPixels: 1,
-      radiusMaxPixels: 1,
+      radiusMinPixels: 3,
+      radiusMaxPixels: 3,
     }),
     new IconLayer({
-      id: 'ps',
+      id: 'icon-layer',
       data: currPs,
       sizeScale: 10,
       iconAtlas: 'https://raw.githubusercontent.com/visgl/deck.gl-data/master/website/icon-atlas.png',
       iconMapping: ICON_MAPPING,
       getIcon: (d) => 'marker',
-      getSize: d => 0.5,
-      getPosition: (d) => d.loc,
+      getSize: d => 1,
+      getPosition: (d) => [d[0], d[1]],
       getColor: d => [255, 255, 0],
-      opacity: 0.3,
+      opacity: 0.9,
       pickable: false,
-      radiusMinPixels: 0.5,
-      radiusMaxPixels: 0.5,
+      radiusMinPixels: 3,
+      radiusMaxPixels: 5,
     }),
   ];
 }
@@ -138,7 +140,7 @@ export default function Trip(props) {
   const minTime = props.minTime;
   const maxTime = props.maxTime;
 
-  const animationSpeed = 4;
+  const animationSpeed = 1.5;
   const time = props.time;
   const trip = props.trip;
   const empty = props.empty;
@@ -151,7 +153,6 @@ export default function Trip(props) {
   function animate() {
     props.setTime(time => {
       if (time > maxTime) {
-        props.setReset(true)
         return minTime;
       } else {
         return time + (0.01) * animationSpeed;
