@@ -22,11 +22,9 @@ def get_res(point):
     url = "http://127.0.0.1:5000/route/v1/driving/"
     r = session.get(url + loc + steps) 
     if r.status_code!= 200:
-        return {}
-  
+       return {}
     res = r.json()   
     all_steps = res["routes"][0]["legs"][0]["steps"]
-    all_steps = all_steps[:-1]
     return all_steps
 
 ### routes 
@@ -95,4 +93,11 @@ def get_distance(all_step):
 def get_duration(all_step):
     total_duration = list(map(lambda data: data["duration"], all_step))
     total_duration = sum(total_duration)
+    return total_duration
+
+
+
+def osrm_duration(point):
+    all_steps = get_res(point)
+    total_duration = get_duration(all_steps)
     return total_duration
